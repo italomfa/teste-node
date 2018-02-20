@@ -1,4 +1,3 @@
-/**Este arquivo, é basicamente como o ContextListener */
 var app = require('./config/server');
 var rotaNoticias = require('./app/routes/noticias');
 var rotaHome = require('./app/routes/home');
@@ -7,7 +6,7 @@ var rota404 = require('./app/routes/404');
 
 inicializarRotas(app);
 
-function inicializarRotas(app){	
+function inicializarRotas(app){
 	rotaNoticias(app);
 	rotaHome(app);
 	rotaFormularioInclusaoNoticia(app);
@@ -15,6 +14,5 @@ function inicializarRotas(app){
 }
 
 app.listen(3000, function(){
-	console.log('Servidor ON');
+	console.log('Servidor ON - teste');
 });
-///teste
