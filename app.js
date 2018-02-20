@@ -17,3 +17,4 @@ function inicializarRotas(app){
 app.listen(3000, function(){
 	console.log('Servidor ON');
 });
+///teste
