@@ -21,7 +21,8 @@ server.listen(3000);
 //NPM (gerenciador de dependências - igual ao maven) -> npm init
 //EXPRESS (framework para web) -> npm install express -save
 //EJS  (módulo para escrita de html + js: engine de views dinâmicas) -> npm install ejs --save
-//NODEMON (facilitar de deploy...utilitário para gerar restart automaticamente).
+//NODEMON (facilitar de deploy...utilitário para gerar restart automaticamente). -> npm install -g nodemon
+//CONSIGN (gerenciador de rotas).... -> npm install consign --save
 //obs: o --save faz com que os arquivos fiquem salvos no diretório do projeto.
 //obs: ejs + express
 //obs: nodemon - utilitário
